@@ -1,0 +1,138 @@
+h1{
+    color:aliceblue;
+    background-color: orange;
+    text-shadow: 3px 3px darkgoldenrod;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+h2{
+    background-color: lightsalmon;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-shadow: 2px 2px salmon;
+    margin:0px;
+
+}
+#favorite-section h2{
+    width:95%;
+    padding:0px;
+    padding-left: 5%;
+    
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+}
+b{
+    font-size: 120%;
+    font-weight: bolder;
+}
+
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+ul{
+    border-width: 1px;
+    border-color:black;
+    border-style:double;
+    list-style-type:armenian;
+    display:flex;
+    padding:0;
+    margin:1em;
+}
+
+li{
+    list-style-type: armenian;
+    display:inline;
+    padding:.5em;
+    box-sizing: border-box;
+    display:inline-table;
+    width:100%;
+}
+
+#content{
+   padding: 10px;
+
+}
+#byline{
+    font-size: 100%;
+    text-shadow: none;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    
+}
+
+#favorite-section{
+    border-style: inset;
+    border-color: salmon;
+    margin: 5px;
+    min-width: 300px;
+    max-width: 400px;
+    display:inline-flex;
+    align-items:initial; 
+    border-radius:10px;
+    background-color:blanchedalmond;
+
+}
+#most-favorite-food{
+    font-weight: bold;
+
+}
+
+.gallery{
+    float:left;
+    width:90%;
+    margin: 5px;
+}
+
+#favorite-section .gallery .picture{
+    height: 150px;
+    border: 1px black solid;
+}
+.picture:hover {
+    box-shadow: 0 0 2px 1px black;
+    height: 500px;
+}
+
+#books{
+    width:98%;
+    border-collapse: collapse;
+    margin:1%;
+}
+th,td{
+    border-bottom: 3px solid salmon;
+    padding: 5px;
+
+}
+
+
+th{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+
+td{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    vertical-align: top;
+    margin:10px;
+}
+
+img#bookcover{
+    width:auto;
+    height: 100px;
+}
