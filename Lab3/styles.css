@@ -1,0 +1,41 @@
+/*missle alert*/
+#test-only {
+    color:white;
+    background-color: teal;
+    display:block;
+    border-radius: 1em;
+    border: .2em black solid;
+    margin:1em;
+    padding: 1em;
+    width:fit-content;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+#real-alert {
+    color:yellow;
+    background-color: red;
+    width:fit-content;
+    border-radius: 1em;
+    border: .2em black solid;
+    margin:1em;
+    padding: 1em;
+    display:block;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+
+    
+
+}
+#real-alert:hover{
+    color:red;
+    font-weight: bolder;
+    background-color: yellow;
+}
+/*forms*/
+p {
+    margin: 1em;
+}
+input {
+    margin: .3em;
+}

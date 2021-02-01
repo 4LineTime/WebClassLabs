@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Testing</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+<p>
+<br>Enter your name: <input type="text">
+<br>Enter your email: <input type="email">
+<br>What's your lucky number? <input type="number">
+<br>What's your birth date? <input type="date">
+<br>What time is it? <input type="time">
+<br>Select a number from this range: <input type="range">
+<br>Choose your favorite color: <input type="color">
+<br>What's the secret password? <input type="password">
+<br>Search: <input type="search">
+<br>Are you sure? <input type="checkbox">
+<br>Submit: <input type="submit" value="Submit">
+</p>
+<p> What's your favorite joke?
+    <br><textarea></textarea>
+</p>
+<p> What's your favorite weather?
+    <select>
+        <option>Sunny</option>
+        <option>Snowy</option>
+        <option>Rainy</option>
+    </select>
+</p>
+<p>
+<br><label for="joke">What's your favorite joke?</label>
+<br><textarea name="joke" id="joke"></textarea>
+
+<br> Please provide any additional information
+<br> <textarea rows="12" cols="100"></textarea>
+</p>
+<p>Coke or Pepsi?
+    <input name="soda" type="radio" checked>Coke
+    <input name="soda" type="radio">Pepsi
+</p>
+<br>What's your lucky number? <input name="lucky_number" value="42" type="number">
+<br>Are you sure? <input type="checkbox" checked>
+
+<label for="what-class">What class is this?</label><input id="what class" name="what-class">
+
+<form action="">
+    <label for="username">Username:</label><input id="username" name="username" required>
+    <br><label for="password">Password:</label><input type="password" name="password" id="password" required>
+    <br><input type="submit">
+</form>
+
+
+
+</html>
