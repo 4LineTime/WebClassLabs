@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+</head>
+<body>
+
+    <ul id="my_list">
+    </ul>
+    <form>
+        <input type="text" id="user_text"><br/>
+        <button id="add_button" type="button"> ADD </button>
+        <button id="clear_button" type="button"> CLEAR </button>
+    </form>
+
+<script>
+
+    let add_button = document.querySelector('#add_button');
+    let my_list = document.querySelector('#my_list');
+    let my_text = document.querySelector('#user_text');
+    let existing_list = my_list.innerHTML;
+    let clear_button = document.querySelector('#clear_button');
+    let existing_items = document.querySelectorAll('input');
+
+    add_button.addEventListener('click', function(){
+        console.log(existing_items, existing_items.length)
+
+        if (existing_items.length > 9) {
+            console.log(existing_items, existing_items.length)
+            alert('Maximum Reached.');
+        }
+        else {
+            let listItem = document.createElement('li');
+            listItem.className = 'input'
+            listItem.innerHTML = my_text.value;
+            my_list.appendChild(listItem);
+            my_text.value = '';
+        }
+    })
+
+    clear_button.addEventListener('click', function(){
+        my_list.innerHTML = '';
+    })
+
+</script>
+
+</body>
+</html>
