@@ -20,9 +20,11 @@
     let my_text = document.querySelector('#user_text');
     let existing_list = my_list.innerHTML;
     let clear_button = document.querySelector('#clear_button');
-    let existing_items = document.querySelectorAll('input');
-
+    
     add_button.addEventListener('click', function(){
+
+        let existing_items = document.querySelectorAll('li');
+
         console.log(existing_items, existing_items.length)
 
         if (existing_items.length > 9) {
